@@ -3,6 +3,8 @@ secretGenerator:
   literals:
   - password=Redhat123
 resources:
+  - namespace.yaml 
   - mysql-deployment.yaml
   - wordpress-deployment.yaml
   - wordpress-ingress.yaml
+namespace: wordpress
